@@ -1,6 +1,6 @@
 # dio-agent-cybersec-extension
 
-Agente inteligente voltado à cibersegurança, com foco em análise de vulnerabilidades, identificação de riscos e orientação para correções seguras. O projeto incorpora o **GuardAI**, uma extensão especializada em apoiar atividades de segurança de aplicações e infraestrutura.
+Agente inteligente voltado à cibersegurança, com foco em análise de vulnerabilidades, identificação de riscos e orientação para correções seguras. O projeto incorpora o **GuardAI**, uma extensão especializada em apoiar atividades de segurança de aplicações e infraestrutura, o qual surge como uma nova feature/extensão do projeto original da DIO: https://github.com/digitalinnovationone/dio-agent
 
 ## Objetivo
 
@@ -33,9 +33,7 @@ O GuardAI utiliza o ciclo **CICLO GuardAI**:
 - Orientações para validação das correções.
 - Uso de referências de segurança, como OWASP, CWE, MITRE ATT&CK e CVSS, quando relevantes.
 - Produção de relatórios técnicos estruturados.
-
-**Importante:** os resultados dependem das evidências disponíveis. O agente deve diferenciar vulnerabilidades confirmadas de hipóteses e não deve afirmar que executou testes ou ferramentas quando isso não ocorreu.
-
+**Importante:** A qualidade e tempo dos resultados dependem diretamente do modelo escolhido no hermes ou outro tipo de harness.
 ## Estrutura do projeto
 
 ```text
@@ -54,7 +52,7 @@ dio-agent-cybersec-extension/
 
 Os caminhos acima representam a estrutura proposta para os arquivos relacionados ao GuardAI. Ajuste-os conforme a estrutura real do repositório.
 
-### Arquivos principais
+### Arquivos criados / alterados
 
 | Arquivo | Finalidade |
 |---|---|
@@ -85,45 +83,6 @@ Consulte a documentação do Hermes para obter as instruções de instalação e
 ### Exemplo de solicitação
 
 ```text
-Analise o código fornecido utilizando a habilidade de análise
-de vulnerabilidades do GuardAI.
-
-Identifique possíveis falhas, explique seus impactos, classifique
-a severidade, apresente recomendações de correção e sugira testes
+Analise o código fornecido e Identifique possíveis falhas, explique seus impactos, classifique a severidade, apresente recomendações de correção e sugira testes
 para validar as mudanças.
-
-Diferencie problemas confirmados de hipóteses e não invente
-resultados de testes ou ferramentas.
 ```
-
-## Testes recomendados
-
-Para avaliar o comportamento do GuardAI, experimente os seguintes cenários:
-
-### 1. Identificação de vulnerabilidades
-
-Forneça um exemplo de código com uma falha conhecida, como uma consulta SQL construída por concatenação de strings. Verifique se o agente identifica o problema, explica o risco e recomenda consultas parametrizadas.
-
-### 2. Validação de correções
-
-Forneça uma versão corrigida do código e solicite uma nova análise. Verifique se o agente reconhece a melhoria e aponta eventuais riscos remanescentes.
-
-### 3. Análise de configurações
-
-Apresente uma configuração de exemplo com permissões excessivas ou serviços desnecessariamente expostos. Verifique se o agente explica os riscos e propõe medidas de mitigação.
-
-Registre os resultados reais e, quando exigido pela atividade, inclua capturas de tela que demonstrem as análises executadas.
-
-## Referências de segurança
-
-- [OWASP](https://owasp.org/)
-- [CWE — Common Weakness Enumeration](https://cwe.mitre.org/)
-- [MITRE ATT&CK](https://attack.mitre.org/)
-- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
-- [Documentação do Hermes Agent](https://hermes-agent.nousresearch.com/docs)
-
-## Considerações finais
-
-O `dio-agent-cybersec-extension` tem como objetivo apoiar atividades de cibersegurança por meio de análises estruturadas e recomendações fundamentadas. O GuardAI amplia essa proposta com um fluxo específico para análise de vulnerabilidades, priorizando evidências, clareza técnica, mitigação de riscos e validação das correções.
-
-O agente deve ser utilizado de forma responsável, com autorização para analisar os sistemas envolvidos e sem substituir testes técnicos ou revisões de segurança necessários.
