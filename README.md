@@ -33,6 +33,7 @@ O GuardAI utiliza o ciclo **CICLO GuardAI**:
 - Orientações para validação das correções.
 - Uso de referências de segurança, como OWASP, CWE, MITRE ATT&CK e CVSS, quando relevantes.
 - Produção de relatórios técnicos estruturados.
+
 **Importante:** A qualidade e tempo dos resultados dependem diretamente do modelo escolhido no hermes ou outro tipo de harness.
 ## Estrutura do projeto
 
