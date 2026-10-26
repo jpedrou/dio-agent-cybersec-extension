@@ -6,7 +6,7 @@ Agente inteligente voltado à cibersegurança, com foco em análise de vulnerabi
 
 O `dio-agent-cybersec-extension` busca ampliar as capacidades de um agente de IA para auxiliar em tarefas de cibersegurança, oferecendo análises estruturadas, recomendações práticas e documentação técnica organizada.
 
-O projeto utiliza conhecimentos de segurança da informação para apoiar a identificação de falhas, a avaliação de riscos e a definição de medidas de mitigação.
+O projeto utiliza conhecimentos de segurança da informação para apoiar a identificação de falhas, a avaliação de riscos e a definição de medidas de mitigação, para que o estudante ou qualquer outro usuário possa ter mais autonomia e ganho de tempo ao realizar suas tarefas.
 
 ## GuardAI — Análise de vulnerabilidades
 
