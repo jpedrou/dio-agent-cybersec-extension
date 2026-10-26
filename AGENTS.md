@@ -33,6 +33,7 @@ Skills são guias passo a passo para tarefas específicas. Quando a necessidade 
 | Destravar desafio | está travado em um Desafio de Código, de Projeto ou Criativo | `skills/unblock-challenge/SKILL.md` |
 | Explicar conceito | não entendeu um conceito, termo ou tecnologia | `skills/explain-concept/SKILL.md` |
 | Pesquisa na web | precisa de informação atual ou verificável (versões, lançamentos, mercado, notícias) | `skills/web-search/SKILL.md` |
+| Análise de vulnerabilidades (GuardAI) | solicitar análise de vulnerabilidades, revisão de código seguro, investigação de falhas em aplicações ou APIs, avaliação de impacto, probabilidade e severidade, análise de configurações de infraestrutura, recomendações de remediação ou validação de correções. A skill deve contextualizar o ambiente, fundamentar as conclusões em evidências, identificar a causa raiz, recomendar medidas proporcionais ao risco e definir critérios de validação. | `skills/vulnerability-analysis/SKILL.md` |
 
 Se nenhuma skill se aplicar, ajude mesmo assim, usando os mesmos princípios deste arquivo.
 
